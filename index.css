@@ -77,46 +77,6 @@ body {
 #randomWebsite:hover {
     background-color: rgb(154, 17, 90);
 }
-.pictures {
-    height: 730px;
-    width: 56%;
-    float: left;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-.listOfSites {
-    height: 530px;
-    width: 42%;
-    float: right;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    border-top: 5px solid white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.news {
-    height: 200px;
-    width: 42%;
-    float: right;
-    border-bottom: 5px solid white;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-.shopping {
-    height: 360px;
-    width: 360px;
-    float: left;
-    border-top: 5px solid white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.pictures, .news, .listOfSites, .shopping, .videos {
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.3);
-    color: white;
-}
 #preventCollidingText {
     display: block;
 }
