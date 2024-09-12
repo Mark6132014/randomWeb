@@ -31,15 +31,6 @@ var websites = [
 document.querySelector("#randomWebsite").addEventListener("click", () => {
     let randomWebsite = window.open(websites[Math.floor(Math.random()*websites.length)], "blank");
     randomWebsite.focus();
-    synth.triggerAttackRelease("C4", "8n", now);
-    synth.triggerAttackRelease("D4", "8n", now + 0.2);
-    synth.triggerAttackRelease("E4", "8n", now + 0.5);
-    synth.triggerAttackRelease("G4", "8n", now + 1);
-    synth.triggerAttackRelease("B4", "8n", now + 1.5);
-    synth.triggerAttackRelease("G3", "8n", now + 1.8);
-    synth.triggerAttackRelease("F3", "8n", now + 2.3);
-    synth.triggerAttackRelease("G3", "8n", now + 2.8);
-    synth.triggerAttackRelease("A4", "8n", now + 3.150);
     randomWebsite.addEventListener("open", () => {
         randomWebsite.focus();
         setTimeout(() => {
